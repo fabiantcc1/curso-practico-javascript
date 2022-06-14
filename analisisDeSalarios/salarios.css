@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-container {
+    background-color: #ccc;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
