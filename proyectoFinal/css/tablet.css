@@ -1,0 +1,17 @@
+.main-container {
+    background-color: var(--secondary-color);
+}
+
+.form-retiro {
+    background-color: var(--white);
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    border-radius: 30px;
+}
+
+
+.container {
+    max-width: 600px;
+    padding: 0 60px;
+}

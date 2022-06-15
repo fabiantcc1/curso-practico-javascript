@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Styles -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,37 +20,36 @@
                 <div class="form-retiro">
                     <div class="form-container">
                         <div class="container">
-                            <div class="header-container">
+                            <!-- <div class="header-container">
                                 <div class="circle1"></div>
                                 <div class="circle2"></div>
+                            </div> -->
+
+                            <div class="header-container">
+                                <h1>CALCULA TU RETIRO</h1>
+                                <p>Tener una meta clara para tu retiro, te ayuadá a saber cuanto dinero exactamente destinarás para tu meta.</p>
                             </div>
-    
-                            <h1>CALCULA TU RETIRO</h1>
-                            <p>Tener una meta clara para tu retiro, te ayuadá a saber cuanto dinero exactamente destinarás para tu meta.</p>
                             <form action="" class="form-retiro-input">
                                 <div class="label-form">
                                     <label for="inputMontoMensual">Ingresa el monto mensual con el que desear vivir:</label>
                                 </div>
                                 <input type="number" placeholder="$1,600" id="inputMontoMensual">
-                                <label class="error-input-oculto input-monto-mensual">Ingresa</label>
             
                                 <div class="label-form">
                                     <label for="inputEdadRetiro">Ingresa la edad en la que te quieres retirar:</label>
                                 </div>
                                 <input type="number" placeholder="50 años" id="inputEdadRetiro">
-                                <label class="error-input-oculto input-edad-retiro">Ingresa</label>
             
                                 <div class="label-form">
                                     <label for="inputEdadActual">Ingresa tu edad actual:</label>
                                 </div>
                                 <input type="number" placeholder="30 años" id="inputEdadActual">
-                                <label class="error-input-oculto input-edad-actual">Ingresa</label>
             
                                 <div class="label-form">
                                     <label for="inputEdadExpectativa">Ingresa tu expectativa de vida:</label>
                                 </div>
                                 <input type="number" placeholder="90 años" id="inputEdadExpectativa">
-                                <label class="error-input-oculto input-edad-expectativa">Ingresa</label>
+                                <label class="error-input-oculto input-edad-expectativa">Ingresa todos los datos</label>
         
                                 <button type="button" onclick="calcularMontosParaRetiro()" class="primary-button calcular-retiro-button">CALCULAR</button>
                             </form>
