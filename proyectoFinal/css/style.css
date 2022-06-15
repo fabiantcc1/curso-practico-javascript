@@ -75,6 +75,17 @@ input {
     padding: 15px 22px;
 }
 
+input[type=number] { 
+    -moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
 .primary-button {
     background-color: var(--button-color);
     color: var(--white);
