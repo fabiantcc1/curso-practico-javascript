@@ -1,5 +1,6 @@
 .main-container {
     background-color: var(--secondary-color);
+    height: 160vh;
 }
 
 .form-retiro {
@@ -7,7 +8,8 @@
     justify-content: space-around;
     align-items: center;
     height: fit-content;
-    border-radius: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px 15px rgba(0, 0, 0, 0.274);
 }
 
 
